@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# retailrover
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![JavaScript](https://img.shields.io/badge/language-JavaScript-blue.svg) ![License](https://img.shields.io/badge/license-ISC-green.svg) ![Node.js](https://img.shields.io/badge/framework-Node.js-orange.svg) ![Docs](https://img.shields.io/badge/docs-available-blue.svg)
 
-## Available Scripts
+## 📖 Description
 
-In the project directory, you can run:
+💻 A major college project where we built a cross platform POS System on Electron. You can checkout the team and progress report in the documents branch.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Built with **JavaScript, SCSS, HTML**
+- Powered by **Node.js**
+- Well-documented codebase
+- Modern build configuration
+- 68 files of organized code
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone the repository
+git clone https://github.com/owner/retailrover.git
+cd retailrover
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install dependencies
+npm install
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📖 Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Available Scripts
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**start:** `react-scripts start`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**build:** `react-scripts build`
 
-## Learn More
+**test:** `react-scripts test`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**eject:** `react-scripts eject`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**electron:serve:** `concurrently -k "cross-env BROWSER=none npm start" "npm run electron:start"`
 
-### Code Splitting
+**electron:build:** `yarn build && electron-builder -c.extraMetadata.main=build/main.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**electron:start:** `wait-on tcp:3000 && electron .`
 
-### Analyzing the Bundle Size
+### Quick Start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start
+```
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🔌 API Documentation
 
-### Advanced Configuration
+This project includes API endpoints. For detailed API documentation, please refer to the source code or run the development server.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📁 Project Structure
 
-### `npm run build` fails to minify
+```
+source: 35 files
+style: 24 files
+other: 4 files
+config: 3 files
+documentation: 2 files
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Key Files:**
+- `README.md`
+- `README.old.md`
+- `package-lock.json`
+- `package.json`
+- `tailwind.config.js`
+
+
+
+## 🤝 Contributing
+
+### Contributors
+
+- [G-Kavinesh](https://github.com/G-Kavinesh)
+- [Vickash13](https://github.com/Vickash13)
+
+We welcome contributions! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+
+
+## 📄 License
+
+This project is licensed under the **ISC** License - see the [LICENSE](LICENSE) file for details.
+
+
+## 👨‍💻 Author
+
+G-Kavinesh
+
+---
+
+⭐ **Star this repository if you found it helpful!**
+
+---
+
+> _This README was intelligently generated by [ReadmeBro](https://readmebro.com) 🤖_
