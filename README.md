@@ -4,10 +4,7 @@
 
 ## 📖 Description
 
-💻 A major college project where we built a cross platform POS System on Electron. You can checkout the team and progress report in the documents branch.
-
-
-
+💻 A major college project where we built a cross platform POS System on Electron.
 
 ## ✨ Features
 
