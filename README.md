@@ -4,7 +4,7 @@
 
 ## 📖 Description
 
-A major college project where we built a cross platform POS System on Electron.
+A major college project where we built a cross platform POS System on electromm.
 
 ## ✨ Features
 
