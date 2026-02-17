@@ -26,25 +26,6 @@ cd retailrover
 npm install
 ```
 
-
-## 📖 Usage
-
-### Available Scripts
-
-**start:** `react-scripts start`
-
-**build:** `react-scripts build`
-
-**test:** `react-scripts test`
-
-**eject:** `react-scripts eject`
-
-**electron:serve:** `concurrently -k "cross-env BROWSER=none npm start" "npm run electron:start"`
-
-**electron:build:** `yarn build && electron-builder -c.extraMetadata.main=build/main.js`
-
-**electron:start:** `wait-on tcp:3000 && electron .`
-
 ### Quick Start
 
 ```bash
